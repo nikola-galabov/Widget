@@ -1,5 +1,5 @@
 <!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
-		<script data-pace-options='{ "restartOnRequestAfter": true }' src="js/plugin/pace/pace.min.js"></script>
+		<script data-pace-options='{ "restartOnRequestAfter": true }' src="libs/js/plugin/pace/pace.min.js"></script>
 
 		<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -60,9 +60,6 @@
 		<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
 
 		<![endif]-->
-
-		<!-- Demo purpose only -->
-		<script src="libs/js/demo.min.js"></script>
 
 		<!-- MAIN APP JS FILE -->
 		<script src="libs/js/app.min.js"></script>
@@ -137,15 +134,10 @@
 			})();
 
 		</script>
+		<script src="script.js"></script>
 
 		<!--- datatables --->
-		<script>
-			$(document).ready( function () {
-	    		$('.test').DataTable();
-			} );
-		</script>
-
-
+		
 
 
 
